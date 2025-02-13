@@ -1,0 +1,68 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .btn {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Carousel Styling */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+/* Section Styling */
+.container h3 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Cards */
+.row.no-gutters {
+    background: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.row.no-gutters:hover {
+    transform: scale(1.02);
+}
+
+/* Button Styling */
+.btn-danger, .btn-primary, .btn-success {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #212529;
+    color: white;
+    margin-top: 20px;
+}

@@ -1,0 +1,127 @@
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 10px 20px;
+    background-color: #343a40 !important; /* Dark background */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Logout Button (Red) */
+  .btn-danger a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-danger {
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dc3545; /* Red */
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Grid and Container Styling */
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .container {
+    max-width: 80%;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Page Title */
+  h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  /* Marquee Styling */
+  marquee {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Table Styling */
+  .tableFixHead {
+    overflow-y: auto;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  .tableFixHead table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #007bff; /* Blue */
+    color: white;
+    text-align: center;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Buttons */
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  .btn-danger {
+    margin-left: 10px;
+  }
+  

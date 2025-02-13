@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 10px 20px;
+    background-color: #343a40 !important; /* Dark background */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Logout Button (Red) */
+  .btn-logout {
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dc3545; /* Red color */
+    border: none;
+  }
+  
+  .btn-logout a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-logout:hover {
+    background-color: #c82333;
+  }
+  
+  /* Form Styling */
+  .container {
+    max-width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    border: 2px solid #007bff; /* Blue border */
+  }
+  
+  /* Form Header */
+  h2 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Input Fields */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #e9f5ff; /* Light blue form background */
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Submit Button (Green) */
+  .btn-submit {
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #28a745; /* Green submit button */
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  

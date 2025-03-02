@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    padding: 10px 20px;
+    background-color: #343a40 !important; /* Dark background */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    padding: 10px;
+    transition: 0.3s;
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Logout Button */
+  .btn-danger a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-danger {
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 50%;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: left;
+  }
+  
+  /* Patient Details Styling */
+  label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  b {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
